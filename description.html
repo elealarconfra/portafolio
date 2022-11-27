@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root{
+            --white: #ffffff;
+            --black: #000000;
+            --DarkGray: #A9A9A9;
+            --MidnightBlue:  #191970;
+            --DarkSlateBlue: #483D8B;
+            --lg: 16px;
+            --md: 14px;
+            --sm: 12px;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            font-family: 'Lexend', sans-serif;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+        }
+        .navbar ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            
+        }
+        .navbar img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        .containerHeader{
+            position: relative;
+            display: inline-block;
+            text-align: justify;
+        }
+        .containerHeader img{
+            width: 100%;
+            height: 100vh;
+        }
+        .description{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./icons/leaf-icon.png" alt="">
+        <h1 class="name">Edgar Leonardo Alarcón Franco</h1>
+        <ul class="menu">
+            <li>About</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+        <button class="cv">
+            <img src="./icons/leaf-icon.png" alt="">
+            Download CV 
+        </button>
+    </nav>
+    <header class="containerHeader">
+        <img src="./icons/agrotech.jpeg" class="agrotech" alt="logo">
+        <article class="description">Ingeniero Agrónomo, especialista en Educación Ambiental y Desarrollo de la Comunidad, 
+            auditor interno de Sistema de Gestión de Calidad ISO 9001:2015, cursos de inocuidad alimentaria bajo GFSI y fundamentos de Sistemas de Gestión de Inocuidad Alimentaria
+            ISO 22000:2018, curso Oficial PSA Inocuidad de los Productos Agrícolas Frescos Bajo la Norma FSMA, 
+            con experiencia en asistencia técnica en campo principalmente en frutales exóticos con destino a la exportación, 
+            en la implementación, control, evaluación y certificación de los predios ante normas nacionales 0448 de 2016 del Instituto Colombiano Agropecuario ICA, 
+            estándares internacionales basados en principios de inocuidad alimentaria GFSI (Global Food Safety Initiative) como Global GAP e IFS, 
+            normas de evaluación de buenas prácticas sociales en finca como el Add-on de Evaluación de Riesgos GLOBAL G.A.P. en las Prácticas Sociales GRASP, 
+            FAIRTRADE para asociaciones de pequeños productores y para planta de producción, experiencia en manejo de equipos profesionales para la validación, asistencia y evaluación de proveedores de fruta, 
+            generación de informes gerenciales, trabajo basado en el cumplimiento de objetivos e indicadores.</article>
+    </header>
+    <div class="login">
+        <div class="formContainer">
+
+        </div>
+    </div>
+</body>
+</html>
