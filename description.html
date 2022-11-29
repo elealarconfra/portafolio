@@ -23,6 +23,7 @@
             width: 100%;
             height: 100vh;
             font-family: 'Lexend', sans-serif;
+            margin: 0;
         }
         .navbar{
             display: flex;
@@ -39,27 +40,41 @@
             height: 30px;
             border-radius: 50%;
         }
-        .containerHeader{
+        .containerHeader .agrotech{
             position: relative;
             display: inline-block;
-            text-align: justify;
         }
-        .containerHeader img{
+        .agrotech{
             width: 100%;
             height: 100vh;
+            opacity: 60%;
+        }
+        .photo1{
+            width: 300px;
+            height: auto;
+            position: absolute;
+            bottom: -8%;
+            left: 50%;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);            
+        }
+        .photo1:hover{
+            content: "adsffklasdklj"   
         }
         .description{
+            height: auto;
             position: absolute;
-            top: 50%;
+            top: 90%;
             left: 50%;
             transform: translate(-50%, -50%);
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <nav class="navbar">
         <img src="./icons/leaf-icon.png" alt="">
-        <h1 class="name">Edgar Leonardo Alarcón Franco</h1>
+        <h1 class="nameNavbar">Edgar Leonardo Alarcón Franco</h1>
         <ul class="menu">
             <li>About</li>
             <li>Education</li>
@@ -74,15 +89,16 @@
     </nav>
     <header class="containerHeader">
         <img src="./icons/agrotech.jpeg" class="agrotech" alt="logo">
+        <img src="./images/photo1.jpg" class="photo1" alt="">
         <article class="description">Ingeniero Agrónomo, especialista en Educación Ambiental y Desarrollo de la Comunidad, 
-            auditor interno de Sistema de Gestión de Calidad ISO 9001:2015, cursos de inocuidad alimentaria bajo GFSI y fundamentos de Sistemas de Gestión de Inocuidad Alimentaria
-            ISO 22000:2018, curso Oficial PSA Inocuidad de los Productos Agrícolas Frescos Bajo la Norma FSMA, 
-            con experiencia en asistencia técnica en campo principalmente en frutales exóticos con destino a la exportación, 
+            auditor interno de Sistema de Gestión de Calidad ISO 9001:2015, experiencia en inocuidad alimentaria en industrias de exportación de fruta fresca, 
+            experiencia en asistencia técnica en campo principalmente en frutales exóticos con destino a la exportación, 
             en la implementación, control, evaluación y certificación de los predios ante normas nacionales 0448 de 2016 del Instituto Colombiano Agropecuario ICA, 
             estándares internacionales basados en principios de inocuidad alimentaria GFSI (Global Food Safety Initiative) como Global GAP e IFS, 
             normas de evaluación de buenas prácticas sociales en finca como el Add-on de Evaluación de Riesgos GLOBAL G.A.P. en las Prácticas Sociales GRASP, 
-            FAIRTRADE para asociaciones de pequeños productores y para planta de producción, experiencia en manejo de equipos profesionales para la validación, asistencia y evaluación de proveedores de fruta, 
-            generación de informes gerenciales, trabajo basado en el cumplimiento de objetivos e indicadores.</article>
+            manejo de equipos profesionales para la validación, asistencia y evaluación de proveedores de fruta.
+            <p class="name">Edgar Leonardo Alarcón Franco</p>
+        </article>
     </header>
     <div class="login">
         <div class="formContainer">
