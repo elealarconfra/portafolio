@@ -49,17 +49,25 @@
             height: 100vh;
             opacity: 60%;
         }
-        .photo1{
-            width: 300px;
-            height: auto;
+        .principal{
             position: absolute;
-            bottom: -8%;
+            bottom: 14%;
             left: 50%;
+        }
+        .photo1{
+            width: 200px;
+            height: auto;
+            position: relative;
+            cursor: pointer;
             border-radius: 50%;
-            transform: translate(-50%, -50%);            
+            transform: translate(-50%, -50%) ;            
         }
         .photo1:hover{
-            content: "adsffklasdklj"   
+            
+            position: relative;
+            cursor: pointer;
+            border-radius: 50%;
+            transform: translate(-50%, -50%) scale(1.2);            
         }
         .description{
             height: auto;
@@ -88,8 +96,11 @@
         </button>
     </nav>
     <header class="containerHeader">
-        <img src="./icons/agrotech.jpeg" class="agrotech" alt="logo">
-        <img src="./images/photo1.jpg" class="photo1" alt="">
+            <img src="./icons/agrotech.jpeg" class="agrotech" alt="logo">
+        <figure class="principal">
+            <img src="./images/photo1.png" class="photo1" alt="">
+        </figure>
+        <p class="name">Edgar Leonardo Alarcón Franco</p>
         <article class="description">Ingeniero Agrónomo, especialista en Educación Ambiental y Desarrollo de la Comunidad, 
             auditor interno de Sistema de Gestión de Calidad ISO 9001:2015, experiencia en inocuidad alimentaria en industrias de exportación de fruta fresca, 
             experiencia en asistencia técnica en campo principalmente en frutales exóticos con destino a la exportación, 
@@ -97,7 +108,6 @@
             estándares internacionales basados en principios de inocuidad alimentaria GFSI (Global Food Safety Initiative) como Global GAP e IFS, 
             normas de evaluación de buenas prácticas sociales en finca como el Add-on de Evaluación de Riesgos GLOBAL G.A.P. en las Prácticas Sociales GRASP, 
             manejo de equipos profesionales para la validación, asistencia y evaluación de proveedores de fruta.
-            <p class="name">Edgar Leonardo Alarcón Franco</p>
         </article>
     </header>
     <div class="login">
