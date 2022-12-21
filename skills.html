@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+    
+    <style>
+        :root{
+            --white: #ffffff;
+            --black: #000000;
+            --DarkGray: #A9A9A9;
+            --MidnightBlue:  #191970;
+            --DarkSlateBlue: #483D8B;
+            --lg: 16px;
+            --md: 14px;
+            --sm: 12px;
+        }
+        body{
+            font-family: 'Lexend', sans-serif;
+            margin: 0;   
+        }
+        .container{       
+            width: 600px;
+            height: auto; 
+            display: inline;    
+            place-content: center;
+            text-align: center;
+        }
+        .title{
+            width: 100%;
+            justify-content: center;
+        }
+        .skills {
+            display: flex;
+            flex-direction: row;    
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .skills > div {
+            position: relative;
+            width: 32%;
+            place-items: center;
+            flex-grow: 1, auto;
+            flex-wrap: wrap;
+        }
+        .skill img{
+            width: 150px;
+            height: 150px;
+        }
+        .skill img:hover {
+            cursor: pointer;
+            opacity: 70%;
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">SKILLS</h1>
+        <section class="skills">
+            <div class="skill">
+                <img src="./icons/Python.png" alt="python">
+            </div>
+            <div class="skill">
+                <img src="./icons/java.png" alt="java">
+            </div>
+            <div class="skill">
+                <img src="./icons/HTML5.png" alt="html5">
+            </div>
+            <div class="skill">
+                <img src="./icons/CSS3.png" alt="css3">
+            </div>
+            <div class="skill">
+                <img src="./icons/javascript.png" alt="javascript">
+            </div>
+            <div class="skill">
+                <img src="./icons/javascript.png" alt="javascript">
+            </div>
+            <div class="skill">
+                <img src="./icons/javascript.png" alt="javascript">
+            </div>
+            <div class="skill">
+                <img src="./icons/javascript.png" alt="javascript">
+            </div>
+            <div class="skill">
+                <img src="./icons/javascript.png" alt="javascript">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
